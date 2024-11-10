@@ -1,0 +1,97 @@
+body {
+    background-color: #697a8a;
+  }
+  
+  .display {
+    border-radius: 12px;
+    background-color: #abb2b9;
+    color: #000000;
+    font-size: 17px;
+    border: none;
+  }
+  .display::placeholder{
+    color: #000000;
+  }
+  h1 {
+    font-size: 48px;
+    color: #070808;
+  }
+  p{
+    color: #fff;
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 11px ;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    padding: 12px;
+  }
+  
+  .addtodo {
+    background-color: #000000;
+    color: #b5bbc0;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 18px 5px 18px;
+  }
+
+  
+  .container input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  .container div {
+    margin-top: 16px;
+  }
+  
+  #todoParent li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #b8c3c4;
+    color: #0c0d0e;
+    width: 50%;
+  }
+  
+  #todoParent li {
+      font-size: 20px;
+    }
+  
+  .edit {
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .delete {
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #13274f;
+    color: #fff;
+  }
+  
+  button{
+    background-color: #000000;
+    color: #c6c7c9;
+    border:1px solid rgb(102, 104, 103);
+    border-radius: 7px;
+    padding: 3px 16px 3px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+  }  
